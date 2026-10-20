@@ -6,9 +6,9 @@
     "start": "while true; do node hid.js; sleep 2; done"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Christian Fritz",
+  "license": "Apache-2.0",
+  "description": "A simple USB joystick: auto-detects connected PS4 controller and publishes to /cmd_vel when found",
   "dependencies": {
     "@transitive-sdk/utils-ros": "^0.16.0",
     "node-hid": "^3.4.0",
