@@ -1,0 +1,17 @@
+{
+  "name": "joystick",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "while true; do node hid.js; sleep 2; done"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@transitive-sdk/utils-ros": "^0.16.0",
+    "node-hid": "^3.4.0",
+    "usb": "^3.2.1"
+  }
+}
